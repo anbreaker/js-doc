@@ -1,11 +1,10 @@
 {
-  "plugins": [],
+  "plugins": ["jsdoc-http-plugin"],
   "source": {
     "include": ["src"],
     "includePattern": ".js$",
     "excludePattern": "(node_modules|docs)"
   },
-
   "templates": {
     "cleverLinks": false,
     "monospaceLinks": false
@@ -16,6 +15,8 @@
     "template": "node_modules/clean-jsdoc-theme",
     "theme_opts": {
       "theme": "dark"
-    }
+    },
+    "tutorials": "./tutorials",
+    "readme": "./README.md"
   }
 }

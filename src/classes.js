@@ -5,6 +5,7 @@
  * newProgrammer.getInfo()
  * @see https://github.com/anbreaker/js-doc/tree/main/src
  * @todo Implement the rest of methods
+ * @tutorial tutorial
  */
 class Programmer {
   /**
